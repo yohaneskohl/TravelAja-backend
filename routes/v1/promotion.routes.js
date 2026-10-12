@@ -4,7 +4,7 @@ const {
   getAllPromo,
   createPromotion,
   getPromotion,
-} = require("../../controllers/promotions.controllers");
+} = require("../../controllers/promotion.controller");
 const { restrict } = require("../../middlewares/auth.middleware");
 
 router.get("/promo", getAllPromo);

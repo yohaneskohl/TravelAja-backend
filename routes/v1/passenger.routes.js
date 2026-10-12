@@ -3,7 +3,7 @@ const {
   createPassenger,
   getAllPassenger,
   getByBookingId,
-} = require("../../controllers/passenger.controllers");
+} = require("../../controllers/passenger.controller");
 const { restrict } = require("../../middlewares/auth.middleware");
 const router = express.Router();
 

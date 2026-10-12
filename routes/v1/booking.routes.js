@@ -6,7 +6,7 @@ const {
   getBookingById,
   BookingProcess,
   bookingHistory,
-} = require("../../controllers/booking.controllers");
+} = require("../../controllers/booking.controller");
 const router = express.Router();
 
 router.get("/booking", getAllBooking);

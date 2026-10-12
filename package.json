@@ -14,7 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@prisma/client": "^5.14.0",
     "bcrypt": "^5.1.1",
@@ -41,5 +40,17 @@
     "sharp": "^0.33.4",
     "swagger-ui-express": "^5.0.0",
     "yaml": "^2.4.2"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yohaneskohl/TravelAja-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yohaneskohl/TravelAja-backend/issues"
+  },
+  "homepage": "https://github.com/yohaneskohl/TravelAja-backend#readme",
+  "description": ""
 }

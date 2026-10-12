@@ -16,7 +16,7 @@ const {
   changePassword,
 } = require("../../controllers/user.controller");
 const { restrict } = require("../../middlewares/auth.middleware");
-const { uploadAvatar } = require("../../controllers/media.controllers");
+const { uploadAvatar } = require("../../controllers/media.controller");
 const passport = require("../../libs/passport");
 
 router.post("/user/register", register);

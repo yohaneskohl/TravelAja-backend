@@ -4,7 +4,7 @@ const {
   getAllAirlines,
   createAirline,
   updateAirline,
-} = require("../../controllers/airlines.controllers");
+} = require("../../controllers/airlines.controller");
 const { restrict } = require("../../middlewares/auth.middleware");
 
 router.get("/airlines", getAllAirlines);
